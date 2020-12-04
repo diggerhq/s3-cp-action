@@ -39,6 +39,7 @@ jobs:
 | Key | Value | Type | Required |
 | ------------- | ------------- | ------------- | ------------- |
 | `FILE` | The local file you wish to upload to S3. For example, `./myfile.txt`. | `env` | **Yes** |
+| `PREFIX` | the directory to upload to on s3, `s3://yourbucket/prefix/{file}`. | `env` | **Yes** |
 | `AWS_REGION` | The region where you created your bucket in. For example, `eu-central-1`. [Full list of regions here.](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-available-regions) | `env` | **Yes** |
 
 
